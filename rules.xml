@@ -5,6 +5,15 @@
     <theme href="index.html" />
     <before content="/html/head/*"
         theme-children="/html/head" />
-    <replace css:theme-children="#bk" css:content-children="#content" />
+
+    <rules css:if-not-content="form#briefkasten-form">
+        <replace css:theme-children="#bk" css:content-children="#content" />
+    </rules>
+
+    <rules css:if-content="form#briefkasten-form">
+        <replace css:theme="#briefkasten-form" css:content="#briefkasten-form" />
+    </rules>
+
+    <after css:theme="#bk" css:content="#version-info" />
 
 </rules>

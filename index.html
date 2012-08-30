@@ -20,10 +20,10 @@
     <!--start: headscripts-->
     <!--end: headscripts-->
     <!--start: headstyles-->
-    <link href="./assets/base.css" media="screen" type="text/css" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/main.css" type="text/css" media="screen" charset="utf-8" />
-	<link rel="shortcut icon" href="./assets/favicon.ico">
-	<link rel="apple-touch-icon-precomposed" href="./assets/ZO-icon-72x72.png">
+    <link href="/briefkasten/assets/base.css" media="screen" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="/briefkasten/assets/main.css" type="text/css" media="screen" charset="utf-8" />
+	<link rel="shortcut icon" href="/briefkasten/assets/favicon.ico">
+	<link rel="apple-touch-icon-precomposed" href="/briefkasten/assets/ZO-icon-72x72.png">
 
 <style type="text/css">
 
@@ -449,19 +449,15 @@ margin: 0pt 0pt 10px;
 			<!--start: feature-->
 			<div id="main">
 				<div id="bk">
-					<div id="briefkasten">
-						<h4>
-							Nachricht zu Ihrer anonymen Datenspende "B8FzLTNC"
-						</h4>
-						<div class="bk_description">
-							<p>
-								Fabian Mohr Lorizzle ma nizzle dolizzle bizzle amizzle, brizzle adipiscing elizzle. Nullizzle bow wow wow velizzle, aliquet volutpizzle, suscipit quis, gravida vizzle, arcu. Mah nizzle yo tortor. Bizzle erizzle. Crunk that's the shizzle shit phat turpis ma nizzle mofo. Maurizzle phat et turpizzle. Check it out in . Brizzle eleifend break yo neck, yall nisi. Pizzle hac pizzle platea dictumst. Gangsta dapibizzle. Crackalackin tellizzle urna, pretizzle crazy, mattis ac, fo shizzle my nizzle vitae, nunc. Boofron suscipizzle. Integer semper gangster bling bling shiz.
-							</p>
-						</div>
-					</div>
-					<p id="version-info" class="subtext">
-						<a href="https://github.com/ZeitOnline/briefkasten/blob/master/CHANGES.rst">Version ${version}</a>
-					</p>
+                    <form id="briefkasten-form" class="deform" accept-charset="utf-8" enctype="multipart/form-data" method="POST" action="https://ssl.zeit.de/briefkasten/submit">
+                    </form>
+                    <p id="bk_upload_text">
+                    Sie können uns hier über eine
+                    <a href="/briefkasten/assets/fingerprint.html">verschlüsselte Verbindung</a>
+                    Dokumente und eine Nachricht hochladen. Ihre Dateien (z.B. Word, PDF, Excel) werden automatisch von allen versteckt gespeicherten Informationen im Dokument (z.B. Autor, Firma) bereinigt und anschließend PGP-verschlüsselt an die Redaktion übermittelt. Nach dem Hochladen erhalten Sie Zugang zu einer Webseite, deren Adresse nur Sie kennen und auf der wir Ihnen Nachrichten zukommen lassen können. Was das im Detail bedeutet,
+                    <a href="http://blog.zeit.de/open-data/2012/07/30/daten-technik/">erfahren Sie hier</a>.
+                    </p>
+                    </div>
 				</div><!--AB HIER IHR CONTENT-->
 				<!--CONTENT ENDE--><!--end: content-->
 			</div><!-- main -->
