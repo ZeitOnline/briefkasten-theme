@@ -146,7 +146,7 @@ a.more-link {
 .section {overflow: hidden;}
 * html .section {height: 1%;}
 #content {
-  background: transparent url(https://ssl.zeit.de/briefkasten/static/bg_content_eee.gif) repeat-y 560px 0px;
+  background: transparent url(https://ssl.zeit.de/briefkasten/assets/bg_content_eee.gif) repeat-y 560px 0px;
   margin-top: 16px;
 }
 #main {
@@ -421,7 +421,7 @@ p.caption {
 /* @end of Topnavigation */
 /* @group Hauptnavigation */
 .mainnav {
-  background: #fff url(https://ssl.zeit.de/briefkasten/static/bg_mainnav.gif) repeat-x 0 0;
+  background: #fff url(https://ssl.zeit.de/briefkasten/assets/bg_mainnav.gif) repeat-x 0 0;
   font-size: 12px;
   font-weight: 700;
   line-height: 28px;
@@ -450,7 +450,7 @@ p.caption {
 * html #wrapper #header ul.mainnav li {margin-right: .29em;}
 #header ul.mainnav li.last {margin-right: none;}
 #header ul.mainnav li.current, #header ul.mainnav li.act-current {
-  background: transparent url(https://ssl.zeit.de/briefkasten/static/menuepfeil.gif) no-repeat 50% 100%;
+  background: transparent url(https://ssl.zeit.de/briefkasten/assets/menuepfeil.gif) no-repeat 50% 100%;
   /* Wenn man dem Eltern-Element einen höheren z-index gibt, dann hat man im IE6 keine Flash-Overlay-Probleme mehr */
   z-index:9998;
 }
@@ -521,7 +521,7 @@ ul.mainnav li.last ul {left: -76px;}
   top: 4px;
 }
 #header a.zeitonline {
-  background: url(https://ssl.zeit.de/briefkasten/static/logo_247x30.png) no-repeat 0 0;
+  background: url(https://ssl.zeit.de/briefkasten/assets/logo_247x30.png) no-repeat 0 0;
   display: block;
   left: 10px;
   height: 30px;
@@ -955,7 +955,7 @@ ul.mainnav li.last ul {left: -76px;}
 /* @group Bottom */
 /* @group Bottomnavigation */
 .footer1 {
-  background: #f2f2f2 url(https://ssl.zeit.de/briefkasten/static/bgfooter.jpg) repeat-x scroll left top;
+  background: #f2f2f2 url(https://ssl.zeit.de/briefkasten/assets/bgfooter.jpg) repeat-x scroll left top;
   height: 1%;
 }
 #bottom {
@@ -989,7 +989,7 @@ ul.mainnav li.last ul {left: -76px;}
   margin-right: 9px;
 }
 * html .bottomnav li.lebensart, * html .bottomnav li.lebensart li {width: 75px;}
-.bottomnav li.current {background: transparent url(https://ssl.zeit.de/briefkasten/static/nav_current.gif) no-repeat 50% 0;}
+.bottomnav li.current {background: transparent url(https://ssl.zeit.de/briefkasten/assets/nav_current.gif) no-repeat 50% 0;}
 .bottomnav li li.current {background: none;}
 .bottomnav li li.current a {color: #900 !important;}
 #bottom li ul {margin-top: 8px;}
@@ -1015,7 +1015,7 @@ ul.mainnav li.last ul {left: -76px;}
 /* @end of Bottomnavigation */
 /* @group Bottomsearch */
 .footersearch a {
-  background: transparent url(https://ssl.zeit.de/briefkasten/static/footerlogo.png) no-repeat 0 0;
+  background: transparent url(https://ssl.zeit.de/briefkasten/assets/footerlogo.png) no-repeat 0 0;
   display: block;
   height: 22px;
   text-indent: -5000em;
@@ -1108,7 +1108,7 @@ ul.mainnav li.last ul {left: -76px;}
   padding: 10px 0;
 }
 #bottom .breadcrumbs ul li {
-  background: transparent url(https://ssl.zeit.de/briefkasten/static/breadcrumbarrow.gif) no-repeat 100% 50%;
+  background: transparent url(https://ssl.zeit.de/briefkasten/assets/breadcrumbarrow.gif) no-repeat 100% 50%;
   display: inline;
   padding-right: 15px;
 }
@@ -1150,7 +1150,7 @@ ul.mainnav li.last ul {left: -76px;}
   outline: none;
 }
 #bms {
-  background: #fff url(https://ssl.zeit.de/briefkasten/static/bookmarkpfeil.gif) no-repeat -80px 0;
+  background: #fff url(https://ssl.zeit.de/briefkasten/assets/bookmarkpfeil.gif) no-repeat -80px 0;
   margin-bottom: 10px;
   padding-top: 7px;
 }
@@ -1167,7 +1167,7 @@ li.bookmark #bms {
   vertical-align: middle;
 }
 .bmsinner a.widget_icon {
-  background: url(https://ssl.zeit.de/briefkasten/static/socialservices/socialservices_sprite.gif) no-repeat 0 0;
+  background: url(https://ssl.zeit.de/briefkasten/assets/socialservices/socialservices_sprite.gif) no-repeat 0 0;
   color: #900;
   cursor: pointer;
   float: left;
@@ -1224,7 +1224,7 @@ li.bookmark #bms {
 }
 
 .tools li {
-  background: transparent url(https://ssl.zeit.de/briefkasten/static/miniicons_v1.gif) no-repeat 0 3px;
+  background: transparent url(https://ssl.zeit.de/briefkasten/assets/miniicons_v1.gif) no-repeat 0 3px;
   padding: 0 0 0 21px;
 }
 
@@ -1448,7 +1448,7 @@ body #wrapper .yearsort li a {
 /* @end of Alphanumeric List */
 /* @group Doublelead */
 .doublelead {
-  background: transparent url(https://ssl.zeit.de/briefkasten/static/1px_dotted_ccc.gif) repeat-y 50% 0;
+  background: transparent url(https://ssl.zeit.de/briefkasten/assets/1px_dotted_ccc.gif) repeat-y 50% 0;
   margin: 12px 0 0 0;
   padding: 0;
 }
@@ -1519,7 +1519,7 @@ body #wrapper .yearsort li a {
 }
 
 .throbber {
-    background: url("https://ssl.zeit.de/briefkasten/static/ajax-loader.gif") no-repeat scroll 50% 50% transparent;
+    background: url("https://ssl.zeit.de/briefkasten/assets/ajax-loader.gif") no-repeat scroll 50% 50% transparent;
 }
 
 .stillImage .playimg{
@@ -1717,7 +1717,7 @@ body p.noflash {
   margin-bottom: 10px;
 }
 #content .infobox ul {
-  background: transparent url(https://ssl.zeit.de/briefkasten/static/1px_solid_ccc.gif) repeat-x 0 100%;
+  background: transparent url(https://ssl.zeit.de/briefkasten/assets/1px_solid_ccc.gif) repeat-x 0 100%;
   height: 30px;
   list-style: none;
   margin: 0;
@@ -1849,12 +1849,12 @@ div.bigatext div.gal_text, div.bigatext p {
   text-transform: uppercase;
 }
 .inlinebiga .biganav a.rwd {
-  background: transparent url(https://ssl.zeit.de/briefkasten/static/bigapfeile_v3.gif) no-repeat 0 -200px;
+  background: transparent url(https://ssl.zeit.de/briefkasten/assets/bigapfeile_v3.gif) no-repeat 0 -200px;
   padding-left: 32px;
 }
 .inlinebiga .biganav a.rwd:hover {background-position: 0 -225px;}
 .inlinebiga .biganav a.fwd {
-  background: transparent url(https://ssl.zeit.de/briefkasten/static/bigapfeile_v3.gif) no-repeat scroll 90px -275px;
+  background: transparent url(https://ssl.zeit.de/briefkasten/assets/bigapfeile_v3.gif) no-repeat scroll 90px -275px;
   padding-right: 32px;
   text-align: right;
   position: absolute;
@@ -1946,7 +1946,7 @@ li.quiz {overflow:hidden;}
 /* @end of Quiz */
 /* @group RSS List */
 .rss {
-  background-image: url(https://ssl.zeit.de/briefkasten/static/rss_icons.png);
+  background-image: url(https://ssl.zeit.de/briefkasten/assets/rss_icons.png);
   background-repeat: no-repeat;
   padding-right: 35px;
 }
@@ -2121,7 +2121,7 @@ li.voting {overflow:hidden;}
 /* @end of Voting */
 /* @group Weather */
 #teasermosaic .weather ul.clear {
-  background: transparent url(https://ssl.zeit.de/briefkasten/static/wetter-220x124.jpg) no-repeat 0 0;
+  background: transparent url(https://ssl.zeit.de/briefkasten/assets/wetter-220x124.jpg) no-repeat 0 0;
   padding-top:  137px;
 }
 
@@ -2158,7 +2158,7 @@ li.voting {overflow:hidden;}
 .weather li,.weather li em, .weather li strong {font-size:10px;}
 .weather .odd {background-color:#F2F2F2;}
 .w1,.w2,.w3,.w4,.w5,.w6,.w7,.w8,.w9,.w10,.w11,.w12,.w13,.w14 {
-  background-image: url(https://ssl.zeit.de/briefkasten/static/weather.png);
+  background-image: url(https://ssl.zeit.de/briefkasten/assets/weather.png);
   background-repeat: no-repeat;
   height: 24px;
   padding-left: 25px;
@@ -2260,7 +2260,7 @@ li.voting {overflow:hidden;}
   height: 24px !important;
 }
 .pagenav a, .pagenav .rwd_inactive, .pagenav .fwd_inactive, .pagenav_com .fwd_inactive, .pagenav_com .rwd_inactive, .pagenav_com a {
-  background: transparent url(https://ssl.zeit.de/briefkasten/static/bigapfeile_v3.gif) no-repeat scroll 0 0;
+  background: transparent url(https://ssl.zeit.de/briefkasten/assets/bigapfeile_v3.gif) no-repeat scroll 0 0;
   bottom: 0;
   display: block;
   height: 24px;
@@ -2371,7 +2371,7 @@ span.verlagsmarke, span.neueverlagsmarke {
   padding:  0;
 }
 .partnersearch .header {
-  background: transparent url(https://ssl.zeit.de/briefkasten/static/maglass.png) no-repeat 10px 12px;
+  background: transparent url(https://ssl.zeit.de/briefkasten/assets/maglass.png) no-repeat 10px 12px;
   border-top: 1px solid #fff;
   font-size: 12px;
   font-weight: 700;
@@ -2506,7 +2506,7 @@ span.iconaud_inline {padding-left: 14px;}
 .iconlink_inline, 
 .iconinfo_inline, 
 .iconportrait_inline {
-  background-image: url(https://ssl.zeit.de/briefkasten/static/icons.gif);
+  background-image: url(https://ssl.zeit.de/briefkasten/assets/icons.gif);
   background-repeat: no-repeat;
   padding-left: 20px;
   font-size: 12px;
@@ -2674,16 +2674,16 @@ span.iconaud_inline {padding-left: 14px;}
 #cboxOverlay {background:#000;}
 #colorbox {}
 #cboxTopLeft {
-  background: transparent url(https://ssl.zeit.de/briefkasten/static/colorbox/border-top.gif) repeat-x bottom;
+  background: transparent url(https://ssl.zeit.de/briefkasten/assets/colorbox/border-top.gif) repeat-x bottom;
   height:45px;
   width:14px;
 }
 #cboxTopCenter {
-  background: transparent url(https://ssl.zeit.de/briefkasten/static/colorbox/border-top.gif) repeat-x bottom;
+  background: transparent url(https://ssl.zeit.de/briefkasten/assets/colorbox/border-top.gif) repeat-x bottom;
   height:45px;
 }
 #cboxTopRight {
-  background: transparent url(https://ssl.zeit.de/briefkasten/static/colorbox/border-top.gif) repeat-x bottom;
+  background: transparent url(https://ssl.zeit.de/briefkasten/assets/colorbox/border-top.gif) repeat-x bottom;
   height:45px;
   width:14px;
 }
@@ -2711,8 +2711,8 @@ span.iconaud_inline {padding-left: 14px;}
 }
 #cboxContent {background:#fff;}
 #cboxLoadedContent {margin-bottom:5px;}
-#cboxLoadingOverlay {background:url(https://ssl.zeit.de/briefkasten/static/colorbox/loading_background.png) center center no-repeat;}
-#cboxLoadingGraphic {background:url(https://ssl.zeit.de/briefkasten/static/colorbox/loading.gif) center center no-repeat;}
+#cboxLoadingOverlay {background:url(https://ssl.zeit.de/briefkasten/assets/colorbox/loading_background.png) center center no-repeat;}
+#cboxLoadingGraphic {background:url(https://ssl.zeit.de/briefkasten/assets/colorbox/loading.gif) center center no-repeat;}
 #cboxTitle {
   bottom: -30px;
   left:0;
@@ -2743,7 +2743,7 @@ span.iconaud_inline {padding-left: 14px;}
 #cboxClose.hover {color: #900;}
 #cboxPrevious, 
 #cboxNext {
-  background: transparent url(https://ssl.zeit.de/briefkasten/static/bigapfeile_v3.gif) no-repeat 0 0;
+  background: transparent url(https://ssl.zeit.de/briefkasten/assets/bigapfeile_v3.gif) no-repeat 0 0;
   bottom: -29px;
   height: 24px;
   position: absolute;
@@ -2751,7 +2751,7 @@ span.iconaud_inline {padding-left: 14px;}
   width:  26px;
 }
 #cboxSlideshow { 
-  background: url(https://ssl.zeit.de/briefkasten/static/colorbox/controls.png) 0px 0px no-repeat;
+  background: url(https://ssl.zeit.de/briefkasten/assets/colorbox/controls.png) 0px 0px no-repeat;
   bottom: -29px;
   position: absolute;
   width: 23px;
@@ -2895,7 +2895,7 @@ html > body .job_bild.first {
 /* @end of Partnerboxen */
 /* @group BytefmPlayer */
 a.bytefmplayer_js {
-  background: url(https://ssl.zeit.de/briefkasten/static/bytefm_sprite.jpg) no-repeat 0 0;
+  background: url(https://ssl.zeit.de/briefkasten/assets/bytefm_sprite.jpg) no-repeat 0 0;
   display: block;
   height: 109px;
   text-indent: -5000em;
@@ -2907,7 +2907,7 @@ a.bytefmplayer_js:hover {
   background-position: 0 -110px;
 }
 .bytefmbigplayer_js {
-  background: url(https://ssl.zeit.de/briefkasten/static/player_0001_sprite.png) no-repeat 0 0;
+  background: url(https://ssl.zeit.de/briefkasten/assets/player_0001_sprite.png) no-repeat 0 0;
   display: block;
   height: 109px;
   text-indent: -5000em;
@@ -2923,7 +2923,7 @@ a.bytefmplayer_js:hover {
 /* @end of BytefmPlayer */
 /* @group DLFPlayer */
 a.dlfplayer_js {
-  background: url(https://ssl.zeit.de/briefkasten/static/bytefm_sprite.jpg) no-repeat 0 0;
+  background: url(https://ssl.zeit.de/briefkasten/assets/bytefm_sprite.jpg) no-repeat 0 0;
   display: block;
   height: 109px;
   text-indent: -5000em;
@@ -2937,7 +2937,7 @@ a.dlfplayer_js:hover {
 /* @end of BytefmPlayer */
 /* @group Olympia-2010-Ticker */
 .olympiamedals .title {
-  background: transparent url('https://ssl.zeit.de/briefkasten/static/olympia-2010/bg-olympia-2010.jpg') no-repeat 0 0;
+  background: transparent url('https://ssl.zeit.de/briefkasten/assets/olympia-2010/bg-olympia-2010.jpg') no-repeat 0 0;
   height: 23px;
   padding: 24px 0 0 3px;
   width: 370px;
@@ -2978,16 +2978,16 @@ a.dlfplayer_js:hover {
   width: 44px;
 }
 th.gold {
-  background: transparent url('https://ssl.zeit.de/briefkasten/static/olympia-2010/medal-gold.gif') 50% 50% no-repeat;
+  background: transparent url('https://ssl.zeit.de/briefkasten/assets/olympia-2010/medal-gold.gif') 50% 50% no-repeat;
 }
 th.silver {
-  background: transparent url('https://ssl.zeit.de/briefkasten/static/olympia-2010/medal-silver.gif') 50% 50% no-repeat;
+  background: transparent url('https://ssl.zeit.de/briefkasten/assets/olympia-2010/medal-silver.gif') 50% 50% no-repeat;
 }
 th.bronce {
-  background: transparent url('https://ssl.zeit.de/briefkasten/static/olympia-2010/medal-bronce.gif') 50% 50% no-repeat;
+  background: transparent url('https://ssl.zeit.de/briefkasten/assets/olympia-2010/medal-bronce.gif') 50% 50% no-repeat;
 }
 th.allmedals {
-  background: transparent url('https://ssl.zeit.de/briefkasten/static/olympia-2010/medals.gif') 50% 50% no-repeat;
+  background: transparent url('https://ssl.zeit.de/briefkasten/assets/olympia-2010/medals.gif') 50% 50% no-repeat;
 }
 table td.medaltitle, th.medaltitle {
   text-align: left;
@@ -3226,7 +3226,7 @@ iframe + br + small {
 /* @end */
 /* @group Kommentarzaehler */
 a.commentcount {
-  background: transparent url(https://ssl.zeit.de/briefkasten/static/icons.gif) 0 -996px no-repeat;
+  background: transparent url(https://ssl.zeit.de/briefkasten/assets/icons.gif) 0 -996px no-repeat;
   font-family:Arial,Helvetica,FreeSans,sans-serif;
   font-size: 11px;
   line-height: 16px;
@@ -3391,7 +3391,7 @@ a.commentcount:active {
 }
 /* all buttons */
 .pn-button {
-	background: transparent url('https://ssl.zeit.de/briefkasten/static/bigapfeile_v3.gif') no-repeat;
+	background: transparent url('https://ssl.zeit.de/briefkasten/assets/bigapfeile_v3.gif') no-repeat;
 	display: block;
 	float: left;
 	height: 24px;
@@ -3462,7 +3462,7 @@ a.commentcount:active {
 	display: none;
 }
 .show_smk .smk-action {
-	background: transparent url('https://ssl.zeit.de/briefkasten/static/socialmediagrant.gif') no-repeat 0 0;
+	background: transparent url('https://ssl.zeit.de/briefkasten/assets/socialmediagrant.gif') no-repeat 0 0;
 	color: #900;
 	cursor: pointer;
 	padding-left: 80px;
@@ -3563,7 +3563,7 @@ a.twitter-share-button:active {
 /* @end SMK Container */
 /* @group SMK Toolbox */
 .smk-toolbox {
-	background: url('https://ssl.zeit.de/briefkasten/static/socialmedia_toolbox_header.png') no-repeat -80px 0;
+	background: url('https://ssl.zeit.de/briefkasten/assets/socialmedia_toolbox_header.png') no-repeat -80px 0;
 	margin-bottom: 7px;
     padding-top: 10px;
     width: 315px;
@@ -3597,7 +3597,7 @@ a.twitter-share-button:active {
 	color: #222;
 }
 .smk-toolbox .smk-layer .smk-action {
-	background: transparent url('https://ssl.zeit.de/briefkasten/static/socialmediagrant.gif') no-repeat 5px 5px;
+	background: transparent url('https://ssl.zeit.de/briefkasten/assets/socialmediagrant.gif') no-repeat 5px 5px;
     border: 1px solid #CCCCCC;
 	border-radius: 2px;
     bottom: 10px;
@@ -3651,13 +3651,13 @@ a.twitter-share-button:active {
 	position: absolute;
 }	
 .fb_ph_head {
-	background: transparent url('https://ssl.zeit.de/briefkasten/static/fb-icon-big.png') no-repeat 0 0;
+	background: transparent url('https://ssl.zeit.de/briefkasten/assets/fb-icon-big.png') no-repeat 0 0;
 	height: 21px;
 	margin-bottom: 11px;
 	position: relative;
 }
 .nopic .fb_ph_head {
-	background: url('https://ssl.zeit.de/briefkasten/static/fb-icon-small.png') no-repeat 0 100%;
+	background: url('https://ssl.zeit.de/briefkasten/assets/fb-icon-small.png') no-repeat 0 100%;
 }
 .fb_ph_supertitle {
 	color: #333333;
@@ -3691,7 +3691,7 @@ a.twitter-share-button:active {
 	background-position: 0 -311px;
 }
 .fb_ph_info {
-	background: url('https://ssl.zeit.de/briefkasten/static/smk_floater_e0e0e0.gif') no-repeat 0 -273px;
+	background: url('https://ssl.zeit.de/briefkasten/assets/smk_floater_e0e0e0.gif') no-repeat 0 -273px;
 	left: 45px;
 	top: 0px;
 }
@@ -3746,7 +3746,7 @@ iframe#fb_showrecoms_frame {
 /* @end Facebook Widget */ 
 /* @group SMKSettings*/
 #smkSettings {
-	background: url("https://ssl.zeit.de/briefkasten/static/socialmediagrant.gif") no-repeat scroll 0 0 transparent;
+	background: url("https://ssl.zeit.de/briefkasten/assets/socialmediagrant.gif") no-repeat scroll 0 0 transparent;
 	color: #900;
 	font: 400 13px/20px sans-serif;
 	height: 20px;
@@ -3915,7 +3915,7 @@ iframe#fb_showrecoms_frame {
 	}
 
 	body #header a.zeitonline {
-		background-image: url('https://ssl.zeit.de/briefkasten/static/zon.svg');
+		background-image: url('https://ssl.zeit.de/briefkasten/assets/zon.svg');
 		-webkit-background-size: 100% 100%;
 		height: 28px;
 		width: 250px;
