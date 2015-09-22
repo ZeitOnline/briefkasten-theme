@@ -7,11 +7,11 @@
         theme-children="/html/head" />
 
     <rules css:if-not-content="form#briefkasten-form">
-        <replace css:theme-children="#bk" css:content-children="#content" />
+        <replace css:theme-children="#form_content" css:content-children="#content" />
     </rules>
 
     <rules css:if-content="form#briefkasten-form">
-        <replace css:theme="#briefkasten-form" css:content="#briefkasten-form" />
+        <replace css:theme="#form_content" css:content="#briefkasten-form" />
     </rules>
 
     <after css:theme="#bk" css:content="#version-info" />
