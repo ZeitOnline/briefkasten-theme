@@ -22,3 +22,9 @@ textarea[name='message'] {
 #item-deformField1 label {
     display: none;
 }
+
+#version-info {
+    margin-top: 3em;
+    opacity: .5;
+    font-size: 80%;
+}
