@@ -35,4 +35,10 @@
       Abschicken
     </xsl:template>
 
+    <!-- add success message -->
+    <replace css:theme="section.notification" css:if-content="#feedback-token">
+      <section class="notification notification--success">
+        Nachricht übermittelt
+      </section>
+    </replace>
 </rules>
