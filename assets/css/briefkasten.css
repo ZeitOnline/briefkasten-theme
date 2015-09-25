@@ -10,13 +10,6 @@
 
 textarea[name='message'] {
     width: 100%;
-    padding: .5em;
-
-    background-color: #eee;
-    border: 0px;
-    padding: 0.8em 0 0.675em 0.875em;
-    vertical-align: middle;
-    color: #555;
 }
 
 #item-deformField1 label {

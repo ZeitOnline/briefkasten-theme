@@ -20,6 +20,7 @@
     <xsl:template match="textarea[@name='message']">
       <xsl:copy>
         <xsl:attribute name="placeholder">Anonymisierte Nachricht an die Redaktion</xsl:attribute>
+        <xsl:attribute name="class">input-row__input</xsl:attribute>
         <xsl:copy-of select="@*" />
         <xsl:apply-templates />
       </xsl:copy>
