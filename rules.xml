@@ -24,4 +24,13 @@
       </xsl:copy>
     </xsl:template>
 
+    <xsl:template match="button[@id='briefkasten-formsubmit']/@class">
+      <xsl:attribute name="class">submit-button</xsl:attribute>
+    </xsl:template>
+
+    <!-- fix English text in error response -->
+    <xsl:template match="button[@id='briefkasten-formsubmit']/span/text()">
+      Abschicken
+    </xsl:template>
+
 </rules>
