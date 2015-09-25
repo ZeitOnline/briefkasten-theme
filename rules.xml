@@ -8,6 +8,7 @@
 
     <rules css:if-not-content="form#briefkasten-form">
         <replace css:theme-children="#briefkasten-content" css:content-children="#content" />
+        <drop css:theme="#briefkasten-intro"/>
     </rules>
 
     <rules css:if-content="form#briefkasten-form">
