@@ -10,4 +10,9 @@
 
 textarea[name='message'] {
     width: 100%;
+    padding: .5em;
+}
+
+#item-deformField1 label {
+    display: none;
 }

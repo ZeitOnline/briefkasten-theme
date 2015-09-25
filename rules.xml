@@ -16,4 +16,12 @@
 
     <replace css:theme="#briefkasten-version" css:content="#version-info" />
 
+    <xsl:template match="textarea[@name='message']">
+      <xsl:copy>
+        <xsl:attribute name="placeholder">Anonymisierte Nachricht an die Redaktion</xsl:attribute>
+        <xsl:copy-of select="@*" />
+        <xsl:apply-templates />
+      </xsl:copy>
+    </xsl:template>
+
 </rules>
