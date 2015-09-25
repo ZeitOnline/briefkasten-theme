@@ -26,6 +26,17 @@
       </xsl:copy>
     </xsl:template>
 
+    <!-- add error class to textarea -->
+    <xsl:template match="textarea[@name='message' and following-sibling::p[@class='error']]">
+      <xsl:copy>
+        <xsl:attribute name="placeholder">Anonymisierte Nachricht an die Redaktion</xsl:attribute>
+        <xsl:attribute name="class">input-row__input input-row__input--error</xsl:attribute>
+        <xsl:attribute name="required">required</xsl:attribute>
+        <xsl:copy-of select="@*" />
+        <xsl:apply-templates />
+      </xsl:copy>
+    </xsl:template>
+
     <xsl:template match="button[@id='briefkasten-formsubmit']/@class">
       <xsl:attribute name="class">submit-button</xsl:attribute>
     </xsl:template>
@@ -41,4 +52,18 @@
         Nachricht übermittelt
       </section>
     </replace>
+
+    <!-- add error message -->
+    <rules css:if-content="#error-deformField1">
+      <replace css:theme="section.notification">
+        <section class="notification notification--error">
+          Bitte hinterlassen Sie eine Nachricht!
+        </section>
+      </replace>
+      <merge attributes="class" css:theme="textarea">
+        input-row__input--error
+      </merge>
+      <drop css:content="li.errorLi"/>
+      <drop css:content="#error-deformField1"/>
+    </rules>
 </rules>
