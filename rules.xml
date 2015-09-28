@@ -21,6 +21,7 @@
       <xsl:copy>
         <xsl:attribute name="placeholder">Anonymisierte Nachricht an die Redaktion</xsl:attribute>
         <xsl:attribute name="class">input-row__input</xsl:attribute>
+        <xsl:attribute name="required">required</xsl:attribute>
         <xsl:copy-of select="@*" />
         <xsl:apply-templates />
       </xsl:copy>
