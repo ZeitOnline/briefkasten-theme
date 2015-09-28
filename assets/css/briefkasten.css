@@ -8,12 +8,26 @@
     padding: 0;
 }
 
+.deformFormFieldset {
+    min-width: 100%;
+    width: 100%;
+}
+
 textarea[name='message'] {
     width: 100%;
 }
 
 #item-deformField1 label {
     display: none;
+}
+
+.deformFileupload input {
+    width: 100%;
+}
+
+#briefkasten-formsubmit {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 #version-info {
