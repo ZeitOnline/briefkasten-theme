@@ -35,3 +35,21 @@ textarea[name='message'] {
     opacity: .5;
     font-size: 80%;
 }
+
+#briefkasten-intro a, #briefkasten-content p a {
+    text-decoration: none;
+    border-bottom: 1px solid rgba(49,49,49,0.5);
+    -moz-transition-property: border-bottom-color,color;
+    -o-transition-property: border-bottom-color,color;
+    -webkit-transition-property: border-bottom-color,color;
+    transition-property: border-bottom-color,color;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+#briefkasten-intro a:hover, #briefkasten-content p a:hover {
+    color: #b91109;
+    border-bottom: 1px solid rgba(185,17,9,0.5);
+}
