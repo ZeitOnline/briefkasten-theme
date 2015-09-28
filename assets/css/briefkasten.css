@@ -13,6 +13,10 @@
     width: 100%;
 }
 
+.deformFormFieldset li.field {
+    margin-bottom: 1em;
+}
+
 textarea[name='message'] {
     width: 100%;
 }
