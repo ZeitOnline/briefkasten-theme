@@ -6,6 +6,7 @@
     border: none;
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 .deformFormFieldset {
@@ -27,6 +28,25 @@ textarea[name='message'] {
 
 .deformFileupload input {
     width: 100%;
+}
+
+.deformClosebuttonActive {
+    position: absolute;
+    right: 0;
+}
+
+.deformClosebuttonActive:before {
+    color: #aaa;
+    margin: 0;
+}
+
+#deformField2 > ul {
+    margin-bottom: .4em;
+}
+
+#deformField2 > ul > li {
+    padding: .4em 0;
+    border-bottom: 1px solid #ddd;
 }
 
 #briefkasten-formsubmit {
