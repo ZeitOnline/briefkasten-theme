@@ -33,11 +33,31 @@ textarea[name='message'] {
 .deformClosebuttonActive {
     position: absolute;
     right: 0;
+    top: 0;
+    width: 2em;
+    height: 2em;
+    top: 1.2em;
+    right: 0;
+    text-align: center;
 }
 
 .deformClosebuttonActive:before {
-    color: #aaa;
+    display: inline-block;
+    content: "+";
     margin: 0;
+    line-height: .7;
+    font-size: 1.5em;
+    position: relative;
+    top: .1em;
+    color: #888;
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
 }
 
 #deformField2 > ul {
