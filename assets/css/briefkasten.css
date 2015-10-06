@@ -1,0 +1,99 @@
+.content__title {
+    margin-bottom: 2.5em;
+}
+
+.deformFormFieldset, .deform li {
+    border: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.deformFormFieldset {
+    min-width: 100%;
+    width: 100%;
+}
+
+.deformFormFieldset li.field {
+    margin-bottom: 1em;
+}
+
+textarea[name='message'] {
+    width: 100%;
+}
+
+#item-deformField1 label {
+    display: none;
+}
+
+.deformFileupload input {
+    width: 100%;
+}
+
+.deformClosebuttonActive {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2em;
+    height: 2em;
+    top: 1.2em;
+    right: 0;
+    text-align: center;
+}
+
+.deformClosebuttonActive:before {
+    display: inline-block;
+    content: "+";
+    margin: 0;
+    line-height: .7;
+    font-size: 1.5em;
+    position: relative;
+    top: .1em;
+    color: #888;
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+#deformField2 > ul {
+    margin-bottom: .4em;
+}
+
+#deformField2 > ul > li {
+    padding: 1.2em 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#briefkasten-formsubmit {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#version-info {
+    margin-top: 3em;
+    opacity: .5;
+    font-size: 80%;
+}
+
+#briefkasten-intro a, #briefkasten-content p a {
+    text-decoration: none;
+    border-bottom: 1px solid rgba(49,49,49,0.5);
+    -moz-transition-property: border-bottom-color,color;
+    -o-transition-property: border-bottom-color,color;
+    -webkit-transition-property: border-bottom-color,color;
+    transition-property: border-bottom-color,color;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+#briefkasten-intro a:hover, #briefkasten-content p a:hover {
+    color: #b91109;
+    border-bottom: 1px solid rgba(185,17,9,0.5);
+}
