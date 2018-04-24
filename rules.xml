@@ -42,6 +42,14 @@
       <xsl:attribute name="class">submit-button</xsl:attribute>
     </xsl:template>
 
+    <!-- customize form labels -->
+    <xsl:template match="label[@for='submit']/text()">
+      <p>Unser Briefkasten versteht gängige Textformate wie Word-doc, odt oder txt, außerdem alle Grafikformate wie jpg, jpeg oder tif. Beim Abschicken wird die hochgeladene Datei zusammen mit Ihrer Textnachricht bereinigt und anonymisiert an die Redaktion übermittelt. Die einzelnen Dateien können dabei maximal ein Gigabyte groß sein.</p>
+      <p><i>Achtung</i>: Alle übrigen Formate werden vom Briefkasten angenommen, aber nicht automatisch von problematischen Metadaten bereinigt. Sollten Sie solche Dateien hochladen, könnten sie Informationen enthalten, die auf sie hinweisen.</p>
+
+    </xsl:template>
+
+
     <!-- fix English text in error response -->
     <xsl:template match="button[@id='briefkasten-formsubmit']/span/text()">
       Abschicken
