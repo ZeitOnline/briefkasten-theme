@@ -74,10 +74,15 @@ textarea[name='message'] {
     margin-right: 0;
 }
 
+#briefkasten-form {
+    border-top: 1px solid #eee;
+    margin: 2em 0;
+}
+
 #version-info {
-    margin-top: 3em;
-    opacity: .5;
+    opacity: .7;
     font-size: 80%;
+    text-align: center;
 }
 
 #briefkasten-intro a, #briefkasten-content p a {

@@ -14,6 +14,25 @@
   font-style: normal;
 }
 
+/* https://github.com/Heydon/fukol-grids */
+.fukol-grid {
+  display: flex; /* 1 */
+  flex-wrap: wrap; /* 2 */
+  margin: 2em -2em; /* 5 (edit me!) */
+}
+
+.fukol-grid > * {
+  flex: 1 0 20em; /* 3 (edit me!) */
+  margin: 0 2em; /* 4 (edit me!) */
+}
+
+.contactlist {
+	border-bottom: 1px solid #eee;
+	border-top: 1px solid #eee;
+	margin: 2em 0 0;
+	padding: 2em;
+}
+
 .input-row__input,
 .input-row__input:-moz-placeholder,
 .input-row__input::-moz-placeholder,
@@ -192,14 +211,9 @@ h2 {
   }
 }
 .content__form {
+  margin: 0 auto;
+  max-width: 40em;
   width: 100%;
-  border-bottom: 1px solid #eee;
-}
-@media screen and (min-width: 48em) {
-  .content__form {
-    width: 34.375em;
-    margin: 0 auto;
-  }
 }
 
 .header {
