@@ -74,6 +74,11 @@ textarea[name='message'] {
     margin-right: 0;
 }
 
+.fileinput-button > div {
+  display: flex;
+  justify-content: space-between;
+}
+
 #version-info {
     margin-top: 3em;
     opacity: .5;
