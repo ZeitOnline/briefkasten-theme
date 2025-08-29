@@ -1,0 +1,20 @@
+name: Release
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "main"
+concurrency:
+  group: release
+  cancel-in-progress: true
+jobs:
+  release-please:
+    name: Release please
+    runs-on: zon-ubuntu-general-dind
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    steps:
+      - name: Release please
+        uses: googleapis/release-please-action@c2a5a2bd6a758a0937f1ddb1e8950609867ed15c # v4
